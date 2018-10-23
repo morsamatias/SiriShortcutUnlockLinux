@@ -9,4 +9,8 @@ $content = 1;
 echo $content;
 //write file
 file_put_contents($file,$content);
+
+sleep(5);
+$content = 0;
+file_put_contents($file,$content);
 ?>
